@@ -1,0 +1,35 @@
+cd JavaGuru/
+ls
+ls -la
+give remote -v
+git remote -v
+git add remote atique https://github.com/atiqulislamusa/JavaGuru.git
+git remote add atique https://github.com/atiqulislamusa/JavaGuru.git
+git remote -v
+git pull
+vi Readme.MD
+git status
+git add Readme.MD
+git status
+git rm --cached Readme.MD
+git status
+git add Readme.MD
+git status
+git commit Readme.MD
+git log Readme.MD
+git push atique master
+ls
+cat Readme.MD
+git remote -v
+ls
+vi Readme.MD
+git stats
+git status
+git add Readme.MD
+git status
+git commit -m "Added few more lines" Readme.MD
+git diff Readme.MD
+vi Readme.MD
+git diff Readme.MD
+git push origin master
+
